@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="MainActivity"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="MainActivity"
+        android:background="#ffffff">
+
+        <Button
+            android:id="@+id/btn_common"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#69bc45"
+            android:text="Common-LA W/Live-In"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btn_divorced"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#69bc45"
+            android:text="DIVORCED/SEPARATED"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btn_married"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#69bc45"
+            android:text="Married"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btn_single"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#69bc45"
+            android:text="Single"
+            android:textColor="@android:color/background_light" />
+
+        <Button
+            android:id="@+id/btn_widowed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#69bc45"
+            android:text="Widowed"
+            android:textColor="@android:color/background_light" />
+
+    </LinearLayout>
+
+
+</ScrollView>

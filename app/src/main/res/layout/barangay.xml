@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="MainActivity"
+    android:background="#ffffff">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="MainActivity"
+        android:background="#ffffff">
+        <Button
+            android:id="@+id/btn_barangay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barangay 1"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_barangay2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barangay 2"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_barangay3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barangay 3"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_barangay4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barangay 4"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_barangay5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Barangay 5"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_basak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basak"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_baylanan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Baylanan"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_cacaon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cacaon"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_colawingon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Colawingon"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_cosina"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cosina"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_dagumbaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dagumbaan"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_dominorog"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dominorog"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_indulang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Indulang"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_lantod"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lantod"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_lapok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lapok"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_liguron"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Liguron"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_lingion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lingi-on"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_lirongan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lirongan"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_miarayon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Miarayon"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_sagaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sagaran"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_salucot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salucot"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_sanantonio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="San Antonio"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_sanisidro"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="San Isidro"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_sanmiguel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="San Miguel"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_sanrafael"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="San Rafael"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_santonino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Santo Nino (Lumbayawa)"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_tagbak"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tagbak"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+        <Button
+            android:id="@+id/btn_tikalaan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tikalaan"
+            android:backgroundTint="#69bc45"
+            android:textColor="@android:color/background_light"/>
+
+    </LinearLayout>
+
+
+</ScrollView>

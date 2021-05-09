@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="100"
+    tools:context="MainActivity"
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="25"
+        android:background="#ffffff"
+        android:weightSum="100"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_weight="10"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="100"
+            android:src="@drawable/logo" />
+
+        <TextView
+            android:id="@+id/txt_appstatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif"
+            android:text="Status: Ready"
+            android:textColor="#69bc45"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="60"
+        android:weightSum="100"
+        android:background="@android:drawable/dialog_holo_light_frame"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_config"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="CONFIGURE CONNECTION"
+            android:textColor="#69bc45"
+            android:textSize="12sp"
+            android:textStyle="normal|bold"
+            android:layout_weight="8" />
+
+        <EditText
+            android:id="@+id/input_ip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#69bc45"
+            android:ems="10"
+            android:hint="Input IP Address Here"
+            android:inputType="text"
+            android:layout_weight="10"/>
+
+        <TextView
+            android:id="@+id/txt_pnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:fontFamily="sans-serif"
+            android:text="Phone Number:"
+            android:textColor="#69bc45"
+            android:textSize="14sp"
+            android:layout_weight="8"/>
+
+        <TextView
+            android:id="@+id/txt_totsmscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:fontFamily="sans-serif"
+            android:text=" Total Sms Count:"
+            android:textColor="#69bc45"
+            android:textSize="14sp"
+            android:layout_weight="8"/>
+
+        <TextView
+            android:id="@+id/txt_smsstatus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:fontFamily="sans-serif"
+            android:text="SMS Status:"
+            android:textColor="#69bc45"
+            android:textSize="14sp"
+            android:layout_weight="8"/>
+
+        <TextView
+            android:id="@+id/txt_smscount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="13dp"
+            android:fontFamily="sans-serif"
+            android:text="SMS Count:"
+            android:textColor="#69bc45"
+            android:textSize="14sp"
+            android:layout_weight="8"/>
+
+        <EditText
+            android:id="@+id/input_msg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#69bc45"
+            android:ems="10"
+            android:hint="Input Message Here"
+            android:inputType="text"
+            android:layout_weight="10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:background="@android:drawable/editbox_dropdown_light_frame"
+            android:backgroundTint="@android:color/transparent"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <ImageButton
+                android:id="@+id/btn_barangay"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/barangay" />
+
+            <ImageButton
+                android:id="@+id/btn_crop"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/crop" />
+
+            <ImageButton
+                android:id="@+id/btn_livestock"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/livestock" />
+
+            <ImageButton
+                android:id="@+id/btn_status"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/status" />
+
+            <ImageButton
+                android:id="@+id/btn_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/gender" />
+
+            <ImageButton
+                android:id="@+id/btn_insurance"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@drawable/insurance" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_send"
+            android:layout_width="108dp"
+            android:layout_height="39dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:drawable/bottom_bar"
+            android:backgroundTint="#69bc45"
+            android:text="Send"
+            android:textColor="@android:color/background_light"
+            android:layout_weight="10"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/btn_about"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:src="@drawable/icon" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="v1.1 February 2018"
+            android:textColor="#9e9c9c" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+
+</LinearLayout>
